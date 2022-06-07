@@ -18,3 +18,7 @@ print(sampleList[3])  # printing an index
 print(sampleList[2] + " " + sampleList[3])
 
 print(sampleList[-1])   # last index is printed
+
+del sampleList[-1]  # deletes the last index from the list
+
+print(sampleList)
